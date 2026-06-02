@@ -27,10 +27,10 @@ Blink and Zipline, they're growing fast but don't have the workforce data undern
 
 
 **Score rationale:** - 4 
-- Frontline Worker (FLW) industries represent a $67B market opportunity by 2030. Retail is the largest FLW opportunity (~$4B TAM)
-
 
 **Named attacker (from partner challenge):**
+
+Workday already has schedule, role, compliance, pay, and training data. The feed can surface contextually relevant information a standalone comms tool can never replicate. The named attacker here is Blink — it has engagement but no workforce data underneath.
 
 ---
 
