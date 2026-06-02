@@ -23,8 +23,8 @@ Communication Feed
 
 ---
 
-### Data Advantage — __/5
-*Proprietary signal that compounds with usage. What do you see that OpenAI doesn't?*
+### Data Advantage
+
 
 **Score rationale:** - 4 
 - Frontline Worker (FLW) industries represent a $67B market opportunity by 2030. Retail is the largest FLW opportunity (~$4B TAM)
@@ -34,17 +34,19 @@ Communication Feed
 
 ---
 
-### Platform Exposure — __/5
-*Encroachment risk × pivot speed. If Apple/Google/OpenAI ships your hero feature native — then what?*
+### Platform Exposure 
 
-**Score rationale:**
+**Score rationale:** - 4 
 
 **Named attacker (from partner challenge):**
+
+Competitors like UKG, Blink, and Zipline are filling that gap
 
 ---
 
 ## Top Vulnerability
-<!-- One line: what's the single biggest strategic risk? -->
+ - Workers still use WhatsApp, text threads, or side channels to coordinate shifts and urgent updates.
+
 
 ## Confidence Level
-<!-- H / M / L — how confident are you in this bet after the diagnostic? -->
+M
