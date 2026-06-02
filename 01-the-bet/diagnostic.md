@@ -12,11 +12,11 @@ Communication Feed
 ## Scores
 
 ### Contextual Moat
+- Mobile is underused as a daily surface. If Workday remains a place people visit only for administrative tasks, we leave value on the table. Communication Feed gives frontline workers a reason to come back every day because it helps them run the shift, not just update records.
+- It is not a standalone comms product. It sits on top of the workforce system of record. The feed can be personalized by schedule, role, training status, compliance context, and manager relationship in ways a generic communication tool cannot. 
 
 
 **Score rationale:** - 4 
-- Mobile is underused as a daily surface. If Workday remains a place people visit only for administrative tasks, we leave value on the table. Communication Feed gives frontline workers a reason to come back every day because it helps them run the shift, not just update records.
-- It is not a standalone comms product. It sits on top of the workforce system of record. The feed can be personalized by schedule, role, training status, compliance context, and manager relationship in ways a generic communication tool cannot. 
 
 
 **Named attacker (from partner challenge):**
@@ -40,7 +40,7 @@ Communication Feed
 
 **Named attacker (from partner challenge):**
 
-Competitors like UKG, Blink, and Zipline are filling that gap
+- Competitors like UKG, Blink, and Zipline are filling that gap
 
 ---
 
