@@ -5,7 +5,7 @@ Communication Feed
 
 **Product:** 
 
-**Your Role:** - PM
+**Your Role:** PM
 
 ---
 
