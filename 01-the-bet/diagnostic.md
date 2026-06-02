@@ -3,8 +3,6 @@
 ## Product
 Communication Feed
 
-**Product:** 
-
 **Your Role:** PM
 
 ---
