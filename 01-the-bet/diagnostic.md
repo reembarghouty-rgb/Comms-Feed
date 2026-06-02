@@ -2,7 +2,7 @@
 
 ## Product
 
-**Prodduct ** Communication Feed
+**Product:** Communication Feed
 **Your Role:** PM
 
 ---
