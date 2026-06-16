@@ -15,11 +15,17 @@
 
 ## Confidence UX Design
 
-**Approach:** show uncertainty / tiered confidence / human-in-loop trigger
+**Approach:** 
+Tiered confidence with human-in-loop trigger
 
 **High confidence (>90%):**
+Agent takes the action automatically and surfaces it in the feed with no extra friction e.g., shift claimed, training card shown, recognition post drafted and ready for one-tap approval. 
+
 **Medium confidence (70-90%):**
+Agent surfaces the suggestion but frames it as a recommendation rather than a fact, and requires explicit confirmation before acting e.g., "Based on your hours, you may be eligible for the new bonus tier. Want me to walk you through it?".
+
 **Low confidence (<70%):**
+Agent does not surface a card or take action at all. Instead, it either stays silent or redirects to a human path — e.g., "This question needs a closer look. Want me to connect you with your manager or HR?"
 
 **User control surface:**
 
