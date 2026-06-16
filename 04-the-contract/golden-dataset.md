@@ -4,9 +4,9 @@
 
 | # | Input | Expected Output | Edge Case? | Judge Type |
 |---|-------|----------------|-----------|-----------|
-| 1 | Frontline Agent posts an open Saturday shift to the team feed|Shift is visible to all eligible team members simultaneously; first qualified worker to tap claims it, and the card updates to 'claimed' for everyone else in real time| N | rule |
-| 2 | | | Y/N | rule / LLM |
-| 3 | | | Y/N | rule / LLM |
+| 1 | Frontline Agent posts an open Saturday shift to the team feed|Shift is visible to all eligible team members simultaneously; first qualified worker to tap claims it, and the card updates to 'claimed' for everyone else in real time| N | Rule |
+| 2 |Jordan approves a drafted 1-year anniversary post for Maya |Post appears in the team feed within 5 seconds of approval, tagged with Maya's name and visible to all team members | N | Rule|
+| 3 |A new policy update on bonus structure is posted; Maya asks 'Does this apply to this month's earnings? |Agent's response correctly states whether the policy is retroactive, in a way that's clear and specific to Maya's situation, without contradicting the source policy document | N |LLM |
 | 4 | | | Y/N | rule / LLM |
 | 5 | | | Y/N | rule / LLM |
 
