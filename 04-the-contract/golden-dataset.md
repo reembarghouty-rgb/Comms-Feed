@@ -4,7 +4,7 @@
 
 | # | Input | Expected Output | Edge Case? | Judge Type |
 |---|-------|----------------|-----------|-----------|
-| 1 | | | Y/N | rule / LLM |
+| 1 | Frontline Agent posts an open Saturday shift to the team feed| Y | rule |
 | 2 | | | Y/N | rule / LLM |
 | 3 | | | Y/N | rule / LLM |
 | 4 | | | Y/N | rule / LLM |
