@@ -33,10 +33,10 @@ Agent does not surface a card or take action at all. Instead, it either stays si
 
 | Metric | Target | Measurement | Alert Threshold |
 |--------|--------|-------------|-----------------|
-| Accuracy | | | |
-| Hallucination rate | | | |
-| Latency (p95) | | | |
-| Drift velocity | | | |
+| Accuracy |90%|Run golden dataset weekly; compare agent output to verified correct answers |Alert if accuracy drops below 85% on any run |
+| Hallucination rate |<2% |Run red-team and golden dataset prompts; flag any response not grounded in actual Workday data |Alert if hallucination rate exceeds 3%|
+| Latency (p95) |<3 seconds |Measure response time from user action (e.g., tap to claim, ask a question) to agent response, for 95% of requests |Alert if p95 latency exceeds 5 seconds|
+| Drift velocity |<5% change month over month |Compare current month's accuracy/hallucination rate against the prior month's baseline|Alert if any metric shifts more than 10% in a single month without a known cause (e.g., model update) |
 
 ## HITL Architecture
 <!-- When does a human step in? What's the escalation path? -->
