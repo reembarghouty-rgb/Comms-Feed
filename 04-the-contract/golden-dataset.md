@@ -48,4 +48,4 @@ Action that breaks a compliance rule → Blocked automatically, routed to HR for
 Sensitive people moment (conflict, complaint, etc.) → Routed to HR for review before it ever reaches the feed
 
 ## Red-Team Findings
-*What failure mode did your partner find that you missed?*
+My Partner asked indirect questions instead of direct ones, like "is anyone else covering the 4pm slot" instead of "what is John's schedule." The agent answered anyway, revealing coworker shift info without anyone being named.
