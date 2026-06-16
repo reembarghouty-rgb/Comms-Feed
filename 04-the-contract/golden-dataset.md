@@ -39,7 +39,10 @@ Agent does not surface a card or take action at all. Instead, it either stays si
 | Drift velocity |<5% change month over month |Compare current month's accuracy/hallucination rate against the prior month's baseline|Alert if any metric shifts more than 10% in a single month without a known cause (e.g., model update) |
 
 ## HITL Architecture
-<!-- When does a human step in? What's the escalation path? -->
+Pay question the agent isn't sure about → Routes to Payroll, full conversation attached
+Worker disagrees with the agent's answer → Routes to Manager + Payroll immediately, no back-and-forth with the agent
+Action that breaks a compliance rule → Blocked automatically, routed to HR for approval before it can proceed
+Sensitive people moment (conflict, complaint, etc.) → Routed to HR for review before it ever reaches the feed
 
 ## Red-Team Findings
 *What failure mode did your partner find that you missed?*
