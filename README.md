@@ -38,7 +38,7 @@
 **Why this won't get copied in 6 months.**
 
 - **Data Flywheel Score:** 16/20
-- **Weakest Loop:** Recursive Learning — worker corrections and team engagement signals are not yet systematically feeding back into model improvement. The feedback pipeline exists in theory (HITL escalations, thumbs-down signals) but is not yet wired into retraining or golden dataset updates.
+- **Weakest Loop:** Recursive Learning, worker corrections and team engagement signals are not yet systematically feeding back into model improvement. The feedback pipeline exists in theory (HITL escalations, thumbs-down signals) but is not yet wired into retraining or golden dataset updates.
 - **Competitive Position:** Workday sits in the high-data/high-integration quadrant. UKG Talk sits in the high-breadth/low-intelligence quadrant. Blink and Zipline sit in the high-UX/low-data quadrant. No competitor occupies the high-data/high-intelligence/native-agent quadrant, that is the space Workday is building toward.
 - **Encroachment Defense:** The moat is the data, not the surface. Competitors can copy the feed UI. They cannot copy the schedule, compliance status, training gaps, compensation history, and recognition data that make the agents smart. That data only exists inside Workday.
 - **Vendor Portability:** Partial, the feed surface is Workday-native, but agent intelligence currently depends on Sana API (unconfirmed for mobile) and AIX/Agent-Forge (inconsistent adoption across agent teams). Full lock-in requires resolving both dependencies.
@@ -79,10 +79,10 @@
 
 **What breaks when this scales — and what compounds.**
 
-- **Compounding System:** [describe feedback loops]
-- **Governance Posture:** [approach]
+- **Compounding System:** Three feedback loops. Loop 1 (Recursive Learning): team engagement signals feed back into golden dataset and agent improvement, status missing/near-term priority. Loop 2 (Cross-Domain Transfer): learnings from Frontline Agent shift-claim patterns propagate to Learning Agent nudge timing, status missing/requires shared learning layer. Loop 3 (Network Intelligence): cross-team and cross-customer behavioral patterns make the feed smarter for every team as scale grows, status missing/long-term architectural priority and primary competitive moat.
+- **Governance Posture:** 
 - **Shadow AI Status:** __ tools found, __ triaged
-- **Agent Boundaries:**
+- **Agent Boundaries:** Agents can post to the team feed, surface personalized cards, draft content for manager approval, and trigger one-tap actions. Agents cannot modify Workday records without explicit human confirmation, access another worker's personal data without authorization, approve compliance-sensitive actions autonomously, or initiate communication outside the Workday platform.
 - **Regulatory Exposure:**
 
 → Details: [`05-the-guardrails/`](05-the-guardrails/)
