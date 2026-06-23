@@ -22,7 +22,7 @@
 **What we're building, for whom, why now.**
 
 - **Product:** Communication Feed: a dedicated engagement tab in Workday Mobile where AI agents surface the right information, at the right time, to the right frontline team, turning passive communication into proactive action.
-- **AI Value Archetype:** Ambient intelligence — agents show up proactively in the team's shared space without being asked, rather than responding to individual queries.
+- **AI Value Archetype:** Ambient intelligence, agents show up proactively in the team's shared space without being asked, rather than responding to individual queries.
 - **Vulnerability Scores:** Moat 4/5 · Data 5/5 · Platform 3/5
 - **Top Risk:** Sana API architecture not confirmed for mobile, late changes could force significant rework and delay the agent integration layer the entire feed depends on.
 - **Confidence:** H
@@ -65,10 +65,10 @@
 
 **Why users will trust a probabilistic system.**
 
-- **Reliability Target:**
-- **Golden Dataset:** __ rows, __ adversarial
-- **Confidence UX:** [approach]
-- **HITL Architecture:**
+- **Reliability Target:** 90% accuracy on golden dataset; less than 2% hallucination rate; p95 latency under 3 seconds; less than 5% drift velocity month over month.
+- **Golden Dataset:**  12 rows currently, 3 adversarial including indirect schedule disclosure attack (red-team finding), simultaneous shift claim race condition, and compliance-triggering overtime approval scenario. Target 50 rows with 15 adversarial before EA.
+- **Confidence UX:** Tiered, high confidence (>90%) agent acts automatically and surfaces clean card; medium confidence (70-90%) agent recommends and requires explicit worker/manager confirmation; low confidence (<70%) agent stays silent and routes to human escalation path.
+- **HITL Architecture:** Five escalation scenarios, low confidence on team-impacting decisions routes to manager; worker disputes agent response routes to manager and HR immediately; compliance-breaking action blocked and routed to HR before proceeding; system sync failure routes to support with worker notification; sensitive people moment (conflict, complaint) routes to HR before reaching the feed.
 - **Failure Mode Coverage:**
 
 → Details: [`04-the-contract/`](04-the-contract/)
