@@ -4,12 +4,12 @@
 
 | Cost Category | Per-User/Month | Notes |
 |--------------|----------------|-------|
-| Inference (primary model) | | |
-| Inference (cascading/triage) | | |
-| Infrastructure | | |
-| Data/storage | | |
-| Human-in-the-loop | | |
-| **Total AI COGS** | | |
+| Inference (primary model) |$0.08|Covers Self-Service Agent, AI Overview, Frontline Agent shift logic, LLM calls for generation and reasoning |
+| Inference (cascading/triage) |$0.02|Lightweight classifier that routes simple requests (shift claim, reaction) away from the expensive model |
+| Infrastructure |$0.03 |API hosting, compute, latency optimization, decreases per user as MAU scales |
+| Data/storage |$0.01|Feed posts, audit logs, conversation history, golden dataset, low per user but compounds at scale |
+| Human-in-the-loop |$0.10|Estimated at ~5% escalation rate; each escalation routed to manager, HR, or support |
+| **Total AI COGS** |$0.24 |Target: offset by $15+ in HR ticket deflection per user per month |
 
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->
